@@ -1,3 +1,5 @@
 import * as wasm from "not_mario_webclient";
 
-wasm.greet();
+window.consoleLog = console.log;
+
+wasm.yeet();
